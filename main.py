@@ -1,12 +1,11 @@
 # Author: Boyuan Lai bjl5716@psu.edu
-# Collaborator:
-# Collaborator:
-# Collaborator:
-# Section: 4
-# Breakout: 12Í
+# Collaborator: Miranda Hanson mkh5823@psu.edu
+# Collaborator: Aaryan Darshin Bavishi aqb6298@psu.edu
+# Section: 6
+# Breakout: 11
 def getLetterGrade(grade):
   
-  if grade <=100.0 and grade >= 93.0:
+  if grade >= 93.0:
     return ("Your letter grade for CMPSC 131 is A.")
   elif grade < 93.0 and grade >= 90.0:
     return ("Your letter grade for CMPSC 131 is A-.")
